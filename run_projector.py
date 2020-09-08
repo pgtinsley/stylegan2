@@ -118,7 +118,7 @@ Run 'python %(prog)s <subcommand> --help' for subcommand help.''',
     project_real_images_parser.add_argument('--data-dir', help='Dataset root directory', required=True)
     project_real_images_parser.add_argument('--dataset', help='Training dataset', dest='dataset_name', required=True)
     project_real_images_parser.add_argument('--num-snapshots', type=int, help='Number of snapshots (default: %(default)s)', default=5)
-    project_real_images_parser.add_argument('--num-images', type=int, help='Number of images to project (default: %(default)s)', default=3)
+    project_real_images_parser.add_argument('--num-images', type=int, help='Number of images to project (default: %(default)s)', default=7423)
     project_real_images_parser.add_argument('--result-dir', help='Root directory for run results (default: %(default)s)', default='results', metavar='DIR')
 
     args = parser.parse_args()
